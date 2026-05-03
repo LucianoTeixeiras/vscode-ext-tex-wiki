@@ -2,6 +2,8 @@
 
 Tex Wiki is a VS Code extension that will generate a detailed project wiki from the directory currently open in VS Code.
 
+This repository also has an educational purpose: it documents the decisions, concepts, stack, and learning path needed to build a VS Code extension from a minimal scaffold to a publishable product.
+
 GitHub repository convention:
 
 - Local folder: `tex-wiki`
@@ -45,6 +47,17 @@ Run locally:
 2. Press `F5`.
 3. In the Extension Development Host window, open a folder.
 4. Run `Tex Wiki: Generate Wiki` from the Command Palette.
+
+## Knowledge Base
+
+The project documentation is organized in [`docs/`](./docs/).
+
+Start with:
+
+- [`docs/README.md`](./docs/README.md)
+- [`docs/01-development-environment.md`](./docs/01-development-environment.md)
+- [`docs/02-vscode-extension-fundamentals.md`](./docs/02-vscode-extension-fundamentals.md)
+- [`docs/03-product-roadmap.md`](./docs/03-product-roadmap.md)
 
 ## Stack
 

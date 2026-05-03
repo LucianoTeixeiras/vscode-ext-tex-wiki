@@ -4,16 +4,15 @@ This folder organizes the knowledge needed to build Tex Wiki as a VS Code extens
 
 The goal is to create a guided learning path that supports both product development and professional growth.
 
-## Learning Areas
+## Wiki Sections
 
-- TypeScript
-- Node.js and npm
-- VS Code Extension API
-- Markdown generation
-- Mermaid diagrams
-- File system and workspace scanning
-- Git and GitHub
-- Extension packaging and Marketplace publishing
+- [TypeScript](./typescript.md)
+- [Node.js and npm](./nodejs-npm.md)
+- [VS Code Extension API](./vscode-extension-api.md)
+- [Markdown and Mermaid](./markdown-mermaid.md)
+- [Git and GitHub](./git-github.md)
+- [Marketplace Publishing](./marketplace.md)
+- [Microsoft Learn and TypeScript](./microsoft-learn-typescript.md)
 
 ## Current Learning Sources
 
@@ -21,13 +20,12 @@ The goal is to create a guided learning path that supports both product developm
 
 ## Suggested Study Order
 
-1. Learn TypeScript fundamentals.
-2. Understand Node.js project structure and npm scripts.
-3. Learn the VS Code extension lifecycle.
-4. Practice workspace and file system APIs.
-5. Generate Markdown programmatically.
-6. Add Mermaid diagrams to generated documentation.
-7. Package and publish the extension.
+1. [TypeScript](./typescript.md)
+2. [Node.js and npm](./nodejs-npm.md)
+3. [VS Code Extension API](./vscode-extension-api.md)
+4. [Markdown and Mermaid](./markdown-mermaid.md)
+5. [Git and GitHub](./git-github.md)
+6. [Marketplace Publishing](./marketplace.md)
 
 ## Project Connection
 
@@ -40,4 +38,16 @@ TypeScript interfaces -> model wiki pages, folder summaries, scan results
 VS Code commands -> expose Tex Wiki actions in the Command Palette
 workspace.fs -> read directories and write generated Markdown files
 Mermaid -> document architecture and flow diagrams
+```
+
+## Learning Flow
+
+```mermaid
+flowchart TD
+    A[TypeScript] --> B[Node.js and npm]
+    B --> C[VS Code Extension API]
+    C --> D[Workspace scanning]
+    D --> E[Markdown generation]
+    E --> F[Mermaid diagrams]
+    F --> G[Marketplace publishing]
 ```

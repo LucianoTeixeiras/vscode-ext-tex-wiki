@@ -55,10 +55,13 @@ The project documentation is organized in [`docs/`](./docs/).
 Start with:
 
 - [`docs/README.md`](./docs/README.md)
+- [`docs/project-wiki/README.md`](./docs/project-wiki/README.md)
 - [`docs/knowledge-acquisition/README.md`](./docs/knowledge-acquisition/README.md)
-- [`docs/01-development-environment.md`](./docs/01-development-environment.md)
-- [`docs/02-vscode-extension-fundamentals.md`](./docs/02-vscode-extension-fundamentals.md)
-- [`docs/03-product-roadmap.md`](./docs/03-product-roadmap.md)
+
+Documentation areas:
+
+- Project documentation wiki: product, architecture, roadmap, workflow, examples, and publishing.
+- Knowledge acquisition wiki: TypeScript, Node.js, VS Code Extension API, Markdown, Mermaid, Git, GitHub, and Marketplace learning path.
 
 ## Stack
 

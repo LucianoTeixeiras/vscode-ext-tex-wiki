@@ -17,6 +17,7 @@ The goal is to make the repository useful not only as source code, but also as a
 
 ## Documentation Map
 
+- [Knowledge Acquisition](./knowledge-acquisition/README.md)
 - [01 - Development Environment](./01-development-environment.md)
 - [02 - VS Code Extension Fundamentals](./02-vscode-extension-fundamentals.md)
 - [03 - Product Roadmap](./03-product-roadmap.md)

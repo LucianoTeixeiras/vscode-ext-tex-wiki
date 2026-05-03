@@ -1,0 +1,39 @@
+{
+  "name": "tex-wiki",
+  "displayName": "Tex Wiki",
+  "description": "Generate a detailed wiki structure from the current VS Code workspace.",
+  "version": "0.0.1",
+  "publisher": "lteixeira",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucianoTeixeiras/vscode-ext-tex-wiki.git"
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:texWiki.generateWiki"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "texWiki.generateWiki",
+        "title": "Tex Wiki: Generate Wiki"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/vscode": "^1.100.0",
+    "typescript": "^5.8.0"
+  }
+}
